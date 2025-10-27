@@ -3,12 +3,487 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crónicas Visuales</title>
+    <title>CRONICAS VISUALES - Fotógrafo Profesional</title>
+    <meta name="description" content="Crónicas Visuales - Capturando historias a través del lente. Fotografía profesional, retratos, naturaleza, urbano y más.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cronicasvisuales.com/">
+    <meta property="og:title" content="CRONICAS VISUALES - Fotógrafo Profesional">
+    <meta property="og:description" content="Capturando historias a través del lente. Fotografía profesional, retratos, naturaleza, urbano y más.">
+    <meta property="og:image" content="https://cronicasvisuales.com/og-image.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cronicasvisuales.com/">
+    <meta property="twitter:title" content="CRONICAS VISUALES - Fotógrafo Profesional">
+    <meta property="twitter:description" content="Capturando historias a través del lente. Fotografía profesional, retratos, naturaleza, urbano y más.">
+    <meta property="twitter:image" content="https://cronicasvisuales.com/og-image.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Crónicas Visuales</h1>
-    <p>Portafolio fotográfico</p>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">CRONICAS VISUALES</div>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Navegación principal">
+                <a href="#" class="logo">
+                    <span>CRONICAS VISUALES</span>
+                </a>
+                
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="#inicio" role="menuitem">Inicio</a></li>
+                    <li role="none"><a href="#sobre-mi" role="menuitem">Sobre Mí</a></li>
+                    <li role="none"><a href="#portfolio" role="menuitem">Portfolio</a></li>
+                    <li role="none"><a href="#servicios" role="menuitem">Servicios</a></li>
+                    <li role="none"><a href="#testimonios" role="menuitem">Testimonios</a></li>
+                    <li role="none"><a href="#contacto" role="menuitem">Contacto</a></li>
+                </ul>
+                
+                <div class="hamburger" aria-label="Abrir menú" aria-expanded="false" role="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" aria-label="Cambiar tema">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <i class="fab fa-whatsapp"></i>
+        <div class="whatsapp-tooltip">¿Queres comprar una pagina de este estilo?</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>CRONICAS VISUALES</h1>
+                <div class="typewriter" id="typewriter"></div>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Ver Trabajos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>Sobre Mí</h2>
+                    <p>Hola, soy Alejandro Martínez, el fotógrafo detrás de <strong>Crónicas Visuales</strong>. Con más de 8 años de experiencia profesional, mi pasión por capturar momentos únicos comenzó cuando recibí mi primera cámara a los 16 años.</p>
+                    <p>Mi enfoque se centra en contar historias a través de la fotografía, ya sea en retratos íntimos, paisajes impresionantes o la energía vibrante de entornos urbanos. Cada imagen que tomo busca transmitir emociones y narrativas que perduren en el tiempo.</p>
+                    <p>Me especializo en fotografía de retrato, paisajes naturales y escenas urbanas, siempre buscando la luz perfecta y la composición que mejor exprese la esencia del momento.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-text">Años de Experiencia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-text">Proyectos Completados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-text">Clientes Satisfechos</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'><rect width='600' height='600' fill='%231a1a2e'/><circle cx='300' cy='250' r='100' fill='%238A2BE2'/><rect x='200' y='400' width='200' height='100' rx='10' fill='%236ECBF5'/><text x='300' y='470' text-anchor='middle' fill='white' font-family='Arial' font-size='20'>Fotógrafo</text></svg>" alt="Alejandro Martínez - Fotógrafo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mi Portfolio</h2>
+                <p>Una selección de mis mejores trabajos fotográficos</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="retrato">Retrato</button>
+                <button class="filter-btn" data-filter="naturaleza">Naturaleza</button>
+                <button class="filter-btn" data-filter="urbano">Urbano</button>
+                <button class="filter-btn" data-filter="producto">Producto</button>
+            </div>
+            
+            <div class="gallery" id="gallery">
+                <!-- Gallery items will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicios</h2>
+                <p>Ofrezco una variedad de servicios fotográficos para capturar tus momentos especiales</p>
+            </div>
+            
+            <div class="services-cards">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Sesión Básica</h3>
+                    <p>Perfecta para retratos individuales o en pareja en localización exterior.</p>
+                    <div class="service-price">$150</div>
+                    <ul class="service-features">
+                        <li>1 hora de sesión</li>
+                        <li>15 fotos editadas</li>
+                        <li>Entrega digital</li>
+                        <li>Asesoría de vestuario</li>
+                    </ul>
+                    <button class="btn btn-primary" data-service="Sesión Básica">Reservar</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Sesión Premium</h3>
+                    <p>Ideal para eventos especiales, bodas o sesiones creativas más elaboradas.</p>
+                    <div class="service-price">$350</div>
+                    <ul class="service-features">
+                        <li>3 horas de sesión</li>
+                        <li>50 fotos editadas</li>
+                        <li>Album físico premium</li>
+                        <li>Fotos en alta resolución</li>
+                    </ul>
+                    <button class="btn btn-primary" data-service="Sesión Premium">Reservar</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Fotografía Urbana</h3>
+                    <p>Captura la esencia de la ciudad con sesiones en localizaciones urbanas emblemáticas.</p>
+                    <div class="service-price">$250</div>
+                    <ul class="service-features">
+                        <li>2 horas de sesión</li>
+                        <li>30 fotos editadas</li>
+                        <li>Varias localizaciones</li>
+                        <li>Estilo editorial</li>
+                    </ul>
+                    <button class="btn btn-primary" data-service="Fotografía Urbana">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonios</h2>
+                <p>Lo que mis clientes dicen sobre mi trabajo</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonials-container" id="testimonials-container">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Trabajar con Crónicas Visuales fue una experiencia increíble. Las fotos de nuestra boda capturaron cada momento especial de manera única y emotiva. ¡Recomendado 100%!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='%238A2BE2'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='40' fill='white'>M</text></svg>" alt="María González">
+                            </div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <p>Boda en la playa</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Las sesiones de producto que realizó para mi marca fueron excepcionales. Las imágenes transmiten perfectamente la esencia de nuestros productos y han aumentado nuestras ventas."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236ECBF5'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='40' fill='white'>C</text></svg>" alt="Carlos Rodríguez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Carlos Rodríguez</h4>
+                                <p>Fotografía de producto</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Quedé impresionado con las fotos de mi sesión de retrato. El fotógrafo supo capturar mi personalidad y crear un ambiente relajado durante toda la sesión. ¡Las fotos son espectaculares!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FF6B6B'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='40' fill='white'>A</text></svg>" alt="Ana Martínez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Martínez</h4>
+                                <p>Sesión de retrato</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Ciudad, País</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@cronicasvisuales.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm" role="form" aria-labelledby="contact-form-title">
+                        <h3 id="contact-form-title" class="mb-0">Envíame un mensaje</h3>
+                        <p class="mt-30">Completa el formulario y me pondré en contacto contigo lo antes posible.</p>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required aria-required="true">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Tu email" required aria-required="true">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Tu mensaje" required aria-required="true"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Crónicas Visuales</h3>
+                    <p>Capturando historias a través del lente. Especializado en fotografía de retrato, naturaleza y urbana con un enfoque artístico y profesional.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="#sobre-mi"><i class="fas fa-chevron-right"></i> Sobre Mí</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Servicios</a></li>
+                        <li><a href="#testimonios"><i class="fas fa-chevron-right"></i> Testimonios</a></li>
+                        <li><a href="#contacto"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicios"><i class="fas fa-camera"></i> Sesión Básica</a></li>
+                        <li><a href="#servicios"><i class="fas fa-crown"></i> Sesión Premium</a></li>
+                        <li><a href="#servicios"><i class="fas fa-building"></i> Fotografía Urbana</a></li>
+                        <li><a href="#servicios"><i class="fas fa-mountain"></i> Fotografía de Naturaleza</a></li>
+                        <li><a href="#servicios"><i class="fas fa-box"></i> Fotografía de Producto</a></li>
+                        <li><a href="#servicios"><i class="fas fa-heart"></i> Sesiones Especiales</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+1234567890"><i class="fas fa-phone"></i> +1 234 567 890</a></li>
+                        <li><a href="mailto:info@cronicasvisuales.com"><i class="fas fa-envelope"></i> info@cronicasvisuales.com</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Ciudad, País</a></li>
+                    </ul>
+                    
+                    <div class="footer-newsletter mt-30">
+                        <h4>Newsletter</h4>
+                        <p>Suscríbete para recibir novedades y promociones.</p>
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Tu email" required>
+                            <button type="submit" class="btn btn-primary">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Crónicas Visuales. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        <div class="container">
+            <div class="disclaimer-content">
+                <p><strong>Proyecto ficticio desarrollado por Thomas Ramírez</strong> - Desarrollador Web con más de 2 años de experiencia, especializado en Landing Pages Profesionales, SEO y Marketing Digital.</p>
+                <p>Esta página fue creada con fines demostrativos, utilizando HTML, CSS y JavaScript puro. No pertenece a ninguna empresa real.</p>
+                <p>Si querés una landing igual de profesional, encargá la tuya por solo <strong>$5 USD</strong> en mi perfil de <a href="#" target="_blank">Fiverr</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-info" id="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+                <p id="lightbox-exif"></p>
+            </div>
+            
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" aria-label="Imagen anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-next" aria-label="Imagen siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <button class="lightbox-close" aria-label="Cerrar lightbox">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="lightbox-counter" id="lightbox-counter"></div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar modal">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <h2 id="modal-title">Reservar Sesión</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="booking-name" placeholder="Tu nombre" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" class="form-control" id="booking-email" placeholder="Tu email" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                    <input type="tel" class="form-control" id="booking-phone" placeholder="Tu teléfono" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" class="form-control" id="booking-service" readonly>
+                </div>
+                
+                <div class="form-group">
+                    <input type="date" class="form-control" id="booking-date" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                    <textarea class="form-control" id="booking-message" placeholder="Mensaje adicional"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Reservar Ahora</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="alert" aria-live="polite" aria-atomic="true">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">Mensaje enviado correctamente</span>
+    </div>
+
+    <!-- Floating Contact Button -->
+    <div class="floating-contact" aria-label="Contacto rápido">
+        <i class="fas fa-comment"></i>
+    </div>
+
+    <!-- JavaScript -->
     <script src="./js/script.js"></script>
 </body>
 </html>
