@@ -106,7 +106,7 @@ whatsappFloat.addEventListener('click', function() {
 const galleryData = [
     {
         id: 1,
-        src: 'assets/urbano/puente.avif',
+        src: './assets/urbano/puente.avif',
         title: 'Puente iluminado en la ciudad',
         category: 'urbano',
         description: 'Fotografía diurna con la luz del sol reflejando en el agua',
@@ -114,7 +114,7 @@ const galleryData = [
     },
     {
         id: 2,
-        src: 'assets/retrato/chico-3.avif',
+        src: './assets/retrato/chico-3.avif',
         title: 'Retrato masculino con distintos tonos',
         category: 'retrato',
         description: 'Retrato moderno con tonos fríos y calidos',
@@ -122,7 +122,7 @@ const galleryData = [
     },
     {
         id: 3,
-        src: 'assets/producto/papas.jpg',
+        src: './assets/producto/papas.jpg',
         title: 'Papas fritas en estudio gastronómico',
         category: 'producto',
         description: 'Composición de producto con iluminación lateral',
@@ -130,7 +130,7 @@ const galleryData = [
     },
     {
         id: 4,
-        src: 'assets/naturaleza/sendero.avif',
+        src: './assets/naturaleza/sendero.avif',
         title: 'Sendero entre montañas',
         category: 'naturaleza',
         description: 'Camino rodeado de montañas y luz suave',
@@ -138,7 +138,7 @@ const galleryData = [
     },
     {
         id: 5,
-        src: 'assets/retrato/chica-2.avif',
+        src: './assets/retrato/chica-2.avif',
         title: 'Retrato artístico con neutro',
         category: 'retrato',
         description: 'Retrato femenino con tonos suaves y luz artificial',
@@ -146,7 +146,7 @@ const galleryData = [
     },
     {
         id: 6,
-        src: 'assets/producto/iphone.avif',
+        src: './assets/producto/iphone.avif',
         title: 'iPhone sobre fondo oscuro',
         category: 'producto',
         description: 'Fotografía de producto con reflejos suaves y composición limpia',
@@ -154,7 +154,7 @@ const galleryData = [
     },
     {
         id: 7,
-        src: 'assets/naturaleza/bosque.jpg',
+        src: './assets/naturaleza/bosque.jpg',
         title: 'Bosque entre luces y sombras',
         category: 'naturaleza',
         description: 'Paisaje natural con rayos de sol filtrándose entre los árboles',
@@ -162,7 +162,7 @@ const galleryData = [
     },
     {
         id: 8,
-        src: 'assets/urbano/ciudad-noche.avif',
+        src: './assets/urbano/ciudad-noche.avif',
         title: 'Ciudad iluminada',
         category: 'urbano',
         description: 'Vista urbana con contraste entre luces artificiales y cielo claro',
@@ -170,7 +170,7 @@ const galleryData = [
     },
     {
         id: 9,
-        src: 'assets/producto/computadora.jpeg',
+        src: './assets/producto/computadora.jpeg',
         title: 'Computadora en entorno profesional',
         category: 'producto',
         description: 'Fotografía publicitaria de equipo tecnológico en estudio',
@@ -178,7 +178,7 @@ const galleryData = [
     },
     {
         id: 10,
-        src: 'assets/naturaleza/mar.avif',
+        src: './assets/naturaleza/mar.avif',
         title: 'Olas del mar al amanecer',
         category: 'naturaleza',
         description: 'Fotografía marina con tonos calidos y reflejos dorados',
@@ -186,7 +186,7 @@ const galleryData = [
     },
     {
         id: 11,
-        src: 'assets/urbano/gente.jpg',
+        src: './assets/urbano/gente.jpg',
         title: 'Multitud en movimiento',
         category: 'urbano',
         description: 'Escena callejera que captura la energía de la ciudad',
@@ -194,7 +194,7 @@ const galleryData = [
     },
     {
         id: 12,
-        src: 'assets/retrato/chica-1.avif',
+        src: './assets/retrato/chica-1.avif',
         title: 'Retrato frontal con luz natural',
         category: 'retrato',
         description: 'Expresión serena y composición equilibrada',
