@@ -106,67 +106,99 @@ whatsappFloat.addEventListener('click', function() {
 const galleryData = [
     {
         id: 1,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%231a1a2e"/><circle cx="200" cy="150" r="80" fill="%238A2BE2"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Retrato 1</text></svg>',
-        title: 'Retrato en el estudio',
-        category: 'retrato',
-        description: 'Sesión de retrato con iluminación natural',
-        exif: 'Cámara: Canon EOS R5 | Lente: 50mm f/1.8 | ISO: 200'
+        src: 'assets/urbano/puente.avif',
+        title: 'Puente iluminado en la ciudad',
+        category: 'urbano',
+        description: 'Fotografía diurna con la luz del sol reflejando en el agua',
+        exif: 'Cámara: Sony A7III | Lente: 90mm f/2.8 | ISO: 100'
     },
     {
         id: 2,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%2316213e"/><polygon points="200,70 250,200 150,200" fill="%236ECBF5"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Naturaleza 1</text></svg>',
-        title: 'Atardecer en la montaña',
-        category: 'naturaleza',
-        description: 'Paisaje montañoso al atardecer',
-        exif: 'Cámara: Sony A7III | Lente: 24-70mm f/2.8 | ISO: 100'
-    },
-    {
-        id: 3,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%230f3460"/><rect x="100" y="100" width="200" height="100" fill="%23FF6B6B"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Urbano 1</text></svg>',
-        title: 'Arquitectura urbana',
-        category: 'urbano',
-        description: 'Edificios modernos en el centro de la ciudad',
+        src: 'assets/retrato/chico-3.avif',
+        title: 'Retrato masculino con distintos tonos',
+        category: 'retrato',
+        description: 'Retrato moderno con tonos fríos y calidos',
         exif: 'Cámara: Nikon Z6 | Lente: 16-35mm f/4 | ISO: 400'
     },
     {
-        id: 4,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%231a1a2e"/><circle cx="150" cy="150" r="60" fill="%238A2BE2"/><circle cx="250" cy="150" r="40" fill="%236ECBF5"/><text x="200" y="260" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Producto 1</text></svg>',
-        title: 'Productos de belleza',
+        id: 3,
+        src: 'assets/producto/papas.jpg',
+        title: 'Papas fritas en estudio gastronómico',
         category: 'producto',
-        description: 'Fotografía comercial para línea de cosméticos',
-        exif: 'Cámara: Canon EOS R6 | Lente: 100mm f/2.8 | ISO: 100'
+        description: 'Composición de producto con iluminación lateral',
+        exif: 'Cámara: Sony A7III | Lente: 90mm f/2.8 | ISO: 100'
     },
     {
-        id: 5,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%23162213e"/><ellipse cx="200" cy="150" rx="100" ry="60" fill="%236ECBF5"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Retrato 2</text></svg>',
-        title: 'Retrato en exteriores',
-        category: 'retrato',
-        description: 'Sesión al aire libre con luz natural',
-        exif: 'Cámara: Sony A7III | Lente: 85mm f/1.4 | ISO: 200'
-    },
-    {
-        id: 6,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%230f3460"/><polygon points="100,150 200,80 300,150 200,220" fill="%23FF6B6B"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Naturaleza 2</text></svg>',
-        title: 'Bosque otoñal',
+        id: 4,
+        src: 'assets/naturaleza/sendero.avif',
+        title: 'Sendero entre montañas',
         category: 'naturaleza',
-        description: 'Sendero en el bosque durante el otoño',
+        description: 'Camino rodeado de montañas y luz suave',
         exif: 'Cámara: Nikon Z6 | Lente: 70-200mm f/2.8 | ISO: 400'
     },
     {
+        id: 5,
+        src: 'assets/retrato/chica-2.avif',
+        title: 'Retrato artístico con neutro',
+        category: 'retrato',
+        description: 'Retrato femenino con tonos suaves y luz artificial',
+        exif: 'Cámara: Sony A7III | Lente: 24-70mm f/2.8 | ISO: 100'
+    },
+    {
+        id: 6,
+        src: 'assets/producto/iphone.avif',
+        title: 'iPhone sobre fondo oscuro',
+        category: 'producto',
+        description: 'Fotografía de producto con reflejos suaves y composición limpia',
+        exif: 'Cámara: Sony A7III | Lente: 90mm f/2.8 | ISO: 100'
+    },
+    {
         id: 7,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%231a1a2e"/><rect x="120" y="80" width="160" height="140" fill="%238A2BE2"/><text x="200" y="260" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Urbano 2</text></svg>',
-        title: 'Calles de la ciudad',
-        category: 'urbano',
-        description: 'Vida urbana y arquitectura histórica',
-        exif: 'Cámara: Canon EOS R5 | Lente: 35mm f/1.8 | ISO: 800'
+        src: 'assets/naturaleza/bosque.jpg',
+        title: 'Bosque entre luces y sombras',
+        category: 'naturaleza',
+        description: 'Paisaje natural con rayos de sol filtrándose entre los árboles',
+        exif: 'Cámara: Canon EOS R6 | Lente: 100mm f/2.8 | ISO: 100'
     },
     {
         id: 8,
-        src: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%23162213e"/><circle cx="200" cy="150" r="70" fill="%236ECBF5"/><text x="200" y="160" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Producto 2</text></svg>',
-        title: 'Tecnología y gadgets',
+        src: 'assets/urbano/ciudad-noche.avif',
+        title: 'Ciudad iluminada',
+        category: 'urbano',
+        description: 'Vista urbana con contraste entre luces artificiales y cielo claro',
+        exif: 'Cámara: Canon EOS R5 | Lente: 35mm f/1.8 | ISO: 800'
+    },
+    {
+        id: 9,
+        src: 'assets/producto/computadora.jpeg',
+        title: 'Computadora en entorno profesional',
         category: 'producto',
-        description: 'Fotografía de producto para marca tecnológica',
+        description: 'Fotografía publicitaria de equipo tecnológico en estudio',
         exif: 'Cámara: Sony A7III | Lente: 90mm f/2.8 | ISO: 100'
+    },
+    {
+        id: 10,
+        src: 'assets/naturaleza/mar.avif',
+        title: 'Olas del mar al amanecer',
+        category: 'naturaleza',
+        description: 'Fotografía marina con tonos calidos y reflejos dorados',
+        exif: 'Cámara: Sony A7III | Lente: 85mm f/1.4 | ISO: 200'
+    },
+    {
+        id: 11,
+        src: 'assets/urbano/gente.jpg',
+        title: 'Multitud en movimiento',
+        category: 'urbano',
+        description: 'Escena callejera que captura la energía de la ciudad',
+        exif: 'Cámara: Sony A7III | Lente: 90mm f/2.8 | ISO: 100'
+    },
+    {
+        id: 12,
+        src: 'assets/retrato/chica-1.avif',
+        title: 'Retrato frontal con luz natural',
+        category: 'retrato',
+        description: 'Expresión serena y composición equilibrada',
+        exif: 'Cámara: Canon EOS R5 | Lente: 50mm f/1.8 | ISO: 200'
     }
 ];
 
